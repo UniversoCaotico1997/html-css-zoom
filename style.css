@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color: #000000;
+
+}
+.top_bar{
+    color: white;
+    position: relative;
+}
+
+
+.custom{
+    padding: 3px;
+    background-color: #4A4A4A; 
+    border-radius:  4px;
+    position: absolute;
+    top: 6px;
+    right: 35px;
+}
+#maximize{
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    margin-left: 5px;
+    padding: 3px;
+    background-color: #4A4A4A; 
+    border-radius:  4px;
+}
