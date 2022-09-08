@@ -1,3 +1,4 @@
+/* #utility */
 *{
     margin: 0;
     padding: 0;
@@ -8,14 +9,14 @@ img{
 }
 body{
     background-color: #000000;
-
 }
+/* barra dei controlli superiore */
 .top_bar{
     color: white;
     position: relative;
+    height: 80px;
+    font-size: small;
 }
-
-
 .custom{
     padding: 3px;
     background-color: #4A4A4A; 
@@ -32,4 +33,29 @@ body{
     padding: 3px;
     background-color: #4A4A4A; 
     border-radius:  4px;
+}
+/* schema della griglia */
+
+.container{
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.row{
+    display: flex;
+    position: relative;
+}
+
+.col_1{
+    width: calc(100% / 12 * 2);
+    margin: 0.30rem;
+}
+
+.name{
+    background-color: #65717E;
+    font-size: small;
+    width: 80px;
+    position: absolute;
+    bottom: 9px;
 }
